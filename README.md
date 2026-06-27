@@ -1,16 +1,125 @@
-# React + Vite
+# Anirudh Workbench
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal developer hub built with **React** and **Tailwind CSS** to showcase my projects, document my learning journey, and share technical journals.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://YOUR-VERCEL-LINK.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Responsive design for desktop, tablet, and mobile
+- Dynamic project pages using React Router
+- Journal section for notes and learning experiences
+- Slug-based routing
+- Live search across projects and journals
+- Reusable React components
+- Clean and minimal UI built with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- React
+- React Router
+- Tailwind CSS
+- Vite
+- JavaScript
+- Lucide React
+
+---
+
+## Pages
+
+- Home
+- About
+- Work
+- Project Details
+- Journal
+- Journal Details
+
+---
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── data/
+├── pages/
+├── assets/
+├── App.jsx
+└── main.jsx
+
+public/
+├── images/
+└── journal/
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/AnirudhJain04/Anirudh_workbench.git
+```
+
+Go into the project
+
+```bash
+cd Anirudh_workbench
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## Future Improvements
+
+- Advanced Search
+- Markdown Journals
+- Reading Time
+- Animations with Framer Motion
+- Tags & Categories
+- Related Articles
+- Command Palette
+
+---
+
+## About
+
+Anirudh Workbench is more than just a portfolio website. It serves as a central place to showcase my projects, track my learning journey, and document technical knowledge as I continue growing as a frontend developer.
+
+---
+
+## Connect With Me
+
+Portfolio: https://anirudhjain-portfolio.vercel.app/
+
+LinkedIn: https://www.linkedin.com/in/anirudh-jain-aj/
+
+GitHub: https://github.com/AnirudhJain04
+
+---
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
